@@ -13,9 +13,6 @@ const Rating = require("../db/Rating");
 //This function is used when you want to create a new router object in your program to handle requests.
 const router = express.Router();
 
-router.get("/", (req, res)=>{
-  res.status(200).json({message: "Home Route"})
-})
 
 // To add new job
 router.post("/jobs", jwtAuth, (req, res) => {
