@@ -1,0 +1,5 @@
+MONGODB_URI = 'mongourl'
+
+CLOUDINARY_CLOUD_NAME = 'cloudname'
+CLOUDINARY_API_KEY = 'apikey'
+CLOUDINARY_API_SECRET = 'apisecret'
